@@ -8,4 +8,5 @@ landingpage.zip
 landingpage
 Pipfile
 Pipfile.lock
-staticfilesProcfile
+staticfiles
+Procfile
