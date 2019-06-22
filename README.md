@@ -2,6 +2,8 @@
 
 Sistema de Eventos encomendado pela Morena.
 
+[![Build Status](https://travis-ci.org/sergiopassos/eventex-sergiopassos.svg?branch=master)](https://travis-ci.org/sergiopassos/eventex-sergiopassos)
+
 ## Como desenvolver?
 
 1. Clone o repositório.
@@ -16,7 +18,7 @@ git clone git@github.com:sergiopassos/eventex-sergiopassos.git wttd
 cd wttd
 python -m venv .wttd
 source .wttd/bin/activate
-pip install -r requeriments.txt
+pip install -r requeriments-dev.txt
 cp contrib/env-sample .env
 python manage.py test
 ```
