@@ -13,7 +13,6 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 import os
 from decouple import config, Csv
 from dj_database_url import parse as dburl
-from time import sleep
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -35,7 +34,7 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', default=[], cast=Csv())
 DEFAULT_FROM_EMAIL = 'contato@eventex.com.br'
 
 
-# Application definition | edit test
+# Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',
